@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist - Favorite Songs</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="ri-folder-3-fill"></i>
+            <span>MY PORTFOLIO</span>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="about-me.html">ABOUT ME</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="others.html">OTHERS</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <i class="ri-menu-line" id="menu-icon"></i>
+        </div>
+    </nav>
+
+    <main class="content">
+        <section class="songs-container">
+            <div class="others-header">
+                <h1>FAVORITE MUSICS</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="songs-list">
+                <!-- Song Item 1 -->
+                <a href="https://open.spotify.com/track/YOUR_LINK_HERE" target="_blank" class="song-card-link">
+                    <div class="song-card">
+                        <div class="song-info">
+                            <img src="/img/album1.jpg" alt="Album Art" class="album-art">
+                            <div>
+                                <h3>Song Title 1</h3>
+                                <p>Artist Name</p>
+                            </div>
+                        </div>
+                        <div class="song-action">
+                            <i class="ri-play-circle-line"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Song Item 2 -->
+                <a href="https://open.spotify.com/track/YOUR_LINK_HERE" target="_blank" class="song-card-link">
+                    <div class="song-card">
+                        <div class="song-info">
+                            <img src="/img/album2.jpg" alt="Album Art" class="album-art">
+                            <div>
+                                <h3>Song Title 2</h3>
+                                <p>Artist Name</p>
+                            </div>
+                        </div>
+                        <div class="song-action">
+                            <i class="ri-play-circle-line"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://open.spotify.com/track/YOUR_LINK_HERE" target="_blank" class="song-card-link">
+                    <div class="song-card">
+                        <div class="song-info">
+                            <img src="/img/album2.jpg" alt="Album Art" class="album-art">
+                            <div>
+                                <h3>Song Title 2</h3>
+                                <p>Artist Name</p>
+                            </div>
+                        </div>
+                        <div class="song-action">
+                            <i class="ri-play-circle-line"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="navigation-footer">
+            <a href="others4.html" class="btn-nav back">
+                <i class="ri-arrow-left-line"></i> BACK
+            </a>
+            <a href="contacts.html" class="btn-nav next">
+                CONTACTS <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
